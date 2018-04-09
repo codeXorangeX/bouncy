@@ -1,0 +1,37 @@
+//---------------HEADER-BANNER---------------
+.top-banner{
+  color: $text-color;
+  text-align: center;
+  padding-top: 232px;
+  max-width: 605px;
+  margin: 0 auto;
+
+  &__title{
+    font-family: $title-font-family;
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: 7px;
+    line-height: 70px;
+    text-transform: uppercase;
+  }
+
+  &__text{
+    line-height: 28px;
+    margin: 10px 0;
+  }
+
+  &__arrow{
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -18px;
+    background: url(../img/head-btn.png) no-repeat 50%;
+    transition: transform .2s ease-in;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

@@ -1,0 +1,29 @@
+//---------------CONTACT-BANNER---------------
+.contact-us{
+  text-align: center;
+  padding: 58px 0;
+  background: url("../img/bg-contact.jpg") 50% no-repeat #000000;
+  background-size: cover;
+
+  &__title{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 29px;
+  }
+
+  &__btn{
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: none;
+    border-radius: 20px;
+    padding: 5px 20px;
+
+    &:hover{
+      border: 1px solid #19bd9a;
+      color: #19bd9a;
+    }
+  }
+}

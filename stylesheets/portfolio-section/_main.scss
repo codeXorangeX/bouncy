@@ -1,0 +1,42 @@
+//---------------PORTFOLIO---------------
+.portfolio{
+  background-color: #f1f1f1;
+
+  &__filter{
+    color:  #464646;
+    line-height: 12px;
+    display: inline-block;
+    font-weight: 600;
+    padding: 0 13px;
+    position: relative;
+    cursor: pointer;
+  }
+}
+.portfolio__filter,
+.active-filter{
+  &:after{
+    content: '';
+    height: 2px;
+    width: 38px;
+    background-color: #19bd9a;
+    position: absolute;
+    left: 50%;
+    margin-left: -19px;
+    margin-top: 25px;
+    visibility: hidden;
+  }
+  &:hover:after{
+    visibility: visible;
+  }
+}
+.active-filter:after{
+  visibility: visible;
+}
+
+.portfolio-works {
+  margin-top: 70px;
+
+  &__item {
+    padding: 5px;
+  }
+}

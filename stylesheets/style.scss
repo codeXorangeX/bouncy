@@ -1,0 +1,43 @@
+@import "normalize";
+@import "layout";
+@import "variables";
+@import "header/main";
+@import "portfolio-section/main";
+@import "the-team-section/main";
+@import "contact-banner-section/main";
+@import "testimonials-section/main";
+@import "contact-section/main";
+@import "footer/main";
+
+body{
+  font-family: $main-font-family;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.container{
+  max-width: 1170px;
+}
+
+.outer-section{
+  text-align: center;
+  padding: 89px 0 102px;
+
+  &__title{
+    font-family: $title-font-family;
+    color: #333b46;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 4px;
+    line-height: 12px;
+    text-transform: uppercase;
+  }
+
+  &__text{
+    color:  #81868e;
+    font-size: 14px;
+    line-height: 25px;
+    max-width: 457px;
+    margin: 41px auto 60px;
+  }
+}

@@ -1,0 +1,37 @@
+//---------------TESTIMONIALS---------------
+.testimonials{
+  background-color: #f1f1f1;
+
+  &__cards{
+    background-color: #fff;
+    padding: 52px 120px 60px 96px;
+    text-align: left;
+  }
+
+  &__descr{
+    display: block;
+    padding-left: 200px;
+  }
+
+  &__text{
+    color:  #81868e;
+    line-height: 28px;
+  }
+
+  &__name{
+    color:  #19bd9a;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin: 30px 0 0;
+  }
+
+  &__prof{
+    color:  #464646;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+}
